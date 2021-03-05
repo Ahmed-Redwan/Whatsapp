@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61106486311",
+    "project_id": "whatsapp-76dae",
+    "storage_bucket": "whatsapp-76dae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61106486311:android:faa77db3de244cd55d6202",
+        "android_client_info": {
+          "package_name": "com.ahmed.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61106486311-mavk36ecavi9e5rfl18g3lmgsrpaoi5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdQjH8E2xgeuoEMT9GWQ-tWvCRF93YcTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61106486311-mavk36ecavi9e5rfl18g3lmgsrpaoi5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

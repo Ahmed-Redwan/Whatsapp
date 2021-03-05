@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_centerHorizontal="true"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:id="@+id/Login_tv_Login"
+            android:layout_marginTop="50dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Login_et_Email"
+            android:layout_below="@id/Login_tv_Login"
+            android:hint="Email"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Login_et_Password"
+            android:layout_below="@id/Login_et_Email"
+            android:hint="Password"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Login_et_Password"
+            android:layout_margin="20dp"
+            android:text="Login"
+            android:id="@+id/Login_btn_register"
+            android:onClick="Login"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Login_btn_register"
+            android:text="I dont have an account. create new account"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="18sp"
+            android:id="@+id/Login_tv_CreateNewAccount"
+            android:onClick="CreateAnAccount"/>
+    </RelativeLayout>
+
+</ScrollView>
