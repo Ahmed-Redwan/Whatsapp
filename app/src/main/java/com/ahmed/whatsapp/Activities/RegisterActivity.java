@@ -41,7 +41,6 @@ public class RegisterActivity extends AppCompatActivity {
         fAuth = FirebaseAuth.getInstance();
 
 
-
     }
 
     public void Register(View view) {
@@ -54,8 +53,8 @@ public class RegisterActivity extends AppCompatActivity {
 
                         if (task.isSuccessful()) {
                             Toast.makeText(RegisterActivity.this, "success", Toast.LENGTH_SHORT).show();
-                            myRef.child("users").child(fAuth.getCurrentUser().getUid()).child("personal information").setValue(new User(et_name.getText().toString()
-                            ,et_email.getText().toString(),et_phone.getText().toString(),""));
+                            myRef.child("users").child(fAuth.getCurrentUser().getUid()).child("personal information").setValue(new User(
+                                    et_email.getText().toString(), et_name.getText().toString(), et_phone.getText().toString(), ""));
 
                         } else {
 

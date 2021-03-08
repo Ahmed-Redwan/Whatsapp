@@ -3,7 +3,7 @@ package com.ahmed.whatsapp.model;
 public class User {
     private String Username,Email,Phone,Password;
 
-    public User(String username, String email, String phone, String password) {
+    public User(String email,String username, String phone, String password) {
         Username = username;
         Email = email;
         Phone = phone;

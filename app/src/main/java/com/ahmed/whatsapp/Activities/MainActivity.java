@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                User user=(User) snapshot.getChildren();
+
             }
 
             @Override
